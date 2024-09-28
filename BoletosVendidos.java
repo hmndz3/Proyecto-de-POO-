@@ -1,7 +1,7 @@
 public class BoletosVendidos {
     private Boleto[] boletos;
     private int cantidadBoletos;
-
+// hay que hace algo mas 
     public BoletosVendidos(int capacidad) {
         this.boletos = new Boleto[capacidad];
         this.cantidadBoletos = 0;
