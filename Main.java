@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Main {
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         // Datos del Cliente
         boolean bandera1 = false;
         Cliente nuevo = null;
