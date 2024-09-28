@@ -11,7 +11,7 @@ public class Boleto {
     public Localidad getLocalidad() {
         return localidad;
     }
-
+//este comanbdo no sirteewsedfsdfsdfsdf
     public void setLocalidad(Localidad localidad) {
         this.localidad = localidad;
     }
