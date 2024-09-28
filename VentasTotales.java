@@ -5,7 +5,7 @@ public class VentasTotales {
         this.boletosVendidos = boletosVendidos;
     }
 
-    public double calcularVentasTotales() {
+    public double  calcularVentasTotales() {
         double total = 0;
         for (Boleto boleto : boletosVendidos.getBoletos()) {
             total += boleto.getPrecio();
