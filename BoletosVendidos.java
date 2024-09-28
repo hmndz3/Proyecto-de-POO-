@@ -6,7 +6,7 @@ public class BoletosVendidos {
         this.boletos = new Boleto[capacidad];
         this.cantidadBoletos = 0;
     }
-
+// esta mierda no funcionaaaaaaaaaa
     public void agregarBoleto(Boleto boleto) {
         if (cantidadBoletos < boletos.length) {
             boletos[cantidadBoletos++] = boleto;
