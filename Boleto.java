@@ -1,7 +1,7 @@
 public class Boleto {
     private Localidad localidad;
     private double precio;
-
+// esta parte debe cambiarse HARRY
     public Boleto(Localidad localidad, double precio) {
 
         this.localidad = localidad;
@@ -19,8 +19,11 @@ public class Boleto {
     public double getPrecio() {
         return precio;
     }
-
+// e   ESTO NO FUNCIONA 
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+//no cambios 
 }
+
+
